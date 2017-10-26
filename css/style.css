@@ -9,6 +9,9 @@ body{
     margin: auto;
     
 }
+.dynamic-content {
+    display:none;
+}
 a:link{
     text-decoration: none;
 }
@@ -19,7 +22,7 @@ h1{
     font-size: 4rem;
 }
 section{
-    margin: 3rem 4rem;
+    margin: 5px;
     text-align: center;
     font-size: 2rem;
     text-transform:uppercase;
