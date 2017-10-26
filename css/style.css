@@ -96,3 +96,6 @@ a:link>#four{
   background:turquoise;
   float:left;
 }
+iframe, object, embed {
+    max-width: 100%;
+}

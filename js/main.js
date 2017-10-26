@@ -13,15 +13,15 @@ console.log(dynamicContent)
 $(document).ready(function() {
 	
 	// Check if the URL parameter is apples
-	if (dynamicContent == 'apples') {
-		$('#apples').show();
+	if (dynamicContent == 'tapMe') {
+		$('#tapMe').show();
 	} 
 	// Check if the URL parameter is oranges
-	else if (dynamicContent == 'oranges') {
-		$('#oranges').show();
+	else if (dynamicContent == 'spacerun') {
+		$('#spacerun').show();
 	} 
 	// Check if the URL parameter is bananas
-	else if (dynamicContent == 'bananas') {
-		$('#bananas').show();
+	else if (dynamicContent == 'fallout') {
+		$('#fallout').show();
 	}
 });
