@@ -3,8 +3,17 @@
     box-shadow: 1px 1.5px 1px #000;
     border-radius: 15px;
     background: #ff9900;
-    margin: auto;
+    margin: 0 auto;
 }
+
+header img{
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+
 
 .dynamic-content {
     display: none;
