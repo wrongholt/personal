@@ -24,7 +24,19 @@ h1 {
 iframe,
 object,
 embed {
+    margin: 0 auto;
+    display: block;
     max-width: 100%;
+    
+}
+.mobile{
+ cursor: url('../images/finger.png'), auto;
+}
+
+#tapMe,#spacerun{    
+    background-image: url(../images/hand.png);
+    background-repeat: no-repeat;
+    background-position: 30% 2em;  
 }
 
 #icon{
@@ -163,6 +175,9 @@ embed {
         -webkit-column-count: 2;
         column-count: 2;
     }
+    #tapMe,#spacerun{
+    background-position:-10em 0%;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -171,6 +186,9 @@ embed {
         -webkit-column-count: 1;
         column-count: 1;
     }
+    #tapMe,#spacerun{
+    background-image: none;
+}
 }
 
 
