@@ -32,24 +32,18 @@ body{
     background: #ccc;
 }
 #main {
-    width: 75%;
+    width: 60em;
     box-shadow: 1px 1.5px 1px #000;
     border-radius: 15px;
     background: #ff9900;
     margin: 0 auto;
-    display: grid;
-    grid-gap: 20px;
+    display: block;
 }
 
-header img{
-    width: 90%;
+#container {
+    width: 100%;
     height: auto;
     margin: 0 auto;
-    text-align: center;
-}
-#container {
-    width: 80em;
-    height: auto;
 }
 
 a:link {
@@ -96,12 +90,7 @@ embed {
     width: device-width;
 }
 
-@media screen and (max-width: 480px) {
-    html,
-    body {
-        min-width: 320px;
-    }
-}
+
 
 
 /*Hover effect*/
@@ -154,6 +143,13 @@ embed {
     background-position:-10em 0%;
 }
 
+html,
+body {
+    min-width: 700px;
+}
+#main {
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -161,7 +157,13 @@ embed {
     #tapMe,#spacerun{
     background-image: none;
 }
-
+html,
+body {
+    min-width: 320px;
+}
+#main {
+    width: 100%;
+}
 }
 
 
