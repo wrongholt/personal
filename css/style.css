@@ -45,8 +45,9 @@ header img{
     text-align: center;
 }
 #container {
-    padding: 30px;
-  }
+    width: 80rem;
+    height: auto;
+}
 
 a:link {
     text-decoration: none;
