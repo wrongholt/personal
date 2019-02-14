@@ -6,6 +6,9 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark);
 }
+.row{
+    padding: 2%;
+}
 .vday{
     background-image: url(../images/Valentines-day.jpg);
     background-repeat: no-repeat;
@@ -101,35 +104,6 @@ embed {
 }
 
 
-
-
-
-.box img{
-    width: 100%;
-}
-
-/* Top Container */
-.top-container{
-    display: grid;
-    grid-gap: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-
-.boxes{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    width: 60%;
-    margin: 0 auto;
-}
-.box{
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
 /*Hover effect*/
 
 
@@ -173,44 +147,21 @@ embed {
     padding: 0.25rem 0.5rem;
 }
 /* Media Queries */
-@media screen and (max-width:1280px){
-    .boxes{
-        grid-gap: 5px;
-        grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
-        grid-template-columns: 1fr 1fr 1fr;
-     
-    }
 
-}
 @media screen and (max-width: 736px) {
-    .columns {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
+
     #tapMe,#spacerun{
     background-position:-10em 0%;
 }
-.boxes{
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
-    grid-template-columns: 1fr 1fr 1fr;
- 
-}
+
 }
 
 @media screen and (max-width: 480px) {
-    .columns {
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-        column-count: 1;
-    }
+  
     #tapMe,#spacerun{
     background-image: none;
 }
-.boxes{
-    grid-template-columns: 1fr;
-}
+
 }
 
 
