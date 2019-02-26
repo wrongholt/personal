@@ -6,45 +6,23 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark);
 }
-.row{
-    padding: 2%;
-}
-.vday{
-    background-image: url(../images/Valentines-day.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 2%;
-    position: relative;
-}
-.textVday{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: pink;
-    color: red;
-    padding: 1%;
-}
 body{
     background: #ccc;
 }
-#main {
-    width: 60em;
+.container {
     box-shadow: 1px 1.5px 1px #000;
     border-radius: 15px;
-    background: #ff9900;
+    background: #FAF2F2;
     margin: 0 auto;
-    display: block;
 }
 
-#container {
-    width: 100%;
+header img{
+    width: 90%;
     height: auto;
     margin: 0 auto;
+    text-align: center;
 }
+
 
 a:link {
     text-decoration: none;
@@ -90,6 +68,12 @@ embed {
     width: device-width;
 }
 
+@media screen and (max-width: 480px) {
+    html,
+    body {
+        min-width: 320px;
+    }
+}
 
 
 
@@ -102,8 +86,9 @@ embed {
     margin: auto;
     transition: .5s ease;
     padding-right: .2rem;
-    width: 9.375rem;
-    height: 9.375rem;
+    width: 100%;
+    height: 20rem;
+    padding: 2%
 }
 
 .middle {
@@ -138,32 +123,27 @@ embed {
 /* Media Queries */
 
 @media screen and (max-width: 736px) {
-
+    .columns {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
     #tapMe,#spacerun{
     background-position:-10em 0%;
 }
 
-html,
-body {
-    min-width: 700px;
-}
-#main {
-    width: 100%;
-}
 }
 
 @media screen and (max-width: 480px) {
-  
+    .columns {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
     #tapMe,#spacerun{
     background-image: none;
 }
-html,
-body {
-    min-width: 320px;
-}
-#main {
-    width: 100%;
-}
+
 }
 
 
