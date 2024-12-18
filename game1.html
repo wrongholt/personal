@@ -59,7 +59,9 @@
     </div>
     <footer class="text-center">
         <small>
-            Copyright &copy; 2020 William Rongholt
+            Copyright &copy; <span id="copyright">
+                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span> William Rongholt
         </small>
     </footer>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
