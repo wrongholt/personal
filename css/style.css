@@ -8,13 +8,16 @@ html{
 }
 body{
     background: #ccc;
-    margin: 2% 0;
+    margin: 2% 0!important;
 }
 .container {
     box-shadow: 1px 1.5px 1px #000;
     border-radius: 15px;
     background: #F2F2F2;
     margin: 0 auto;
+}
+.row {
+    justify-content:center;
 }
 #container {
     width: 100%;
