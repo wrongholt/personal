@@ -8,11 +8,12 @@ html{
 }
 body{
     background: #ccc;
+    margin: 2% 0;
 }
 .container {
     box-shadow: 1px 1.5px 1px #000;
     border-radius: 15px;
-    background: #FAF2F2;
+    background: #F2F2F2;
     margin: 0 auto;
 }
 #container {
